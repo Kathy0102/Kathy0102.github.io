@@ -3,11 +3,11 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: /img/RWBY_logo.png
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /img/favicon.svg
+    favicon: /img/ruby_sigile.jpg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
@@ -118,7 +118,7 @@ navbar:
 # Page footer configurations
 footer:
     # Copyright text
-    copyright: © 2019
+    # copyright: © 2019
     # Links to be shown on the right of the footer section
     links:
         Creative Commons:
@@ -229,13 +229,13 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Katherine Ye
         # Author title
-        author_title: Your title
+        author_title: student
         # Author's current location
-        location: Your location
+        location: Shanghai, China
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/Rwby.png
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
@@ -353,7 +353,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
@@ -388,10 +388,10 @@ plugins:
         site_id: 
     # Enable the KaTeX math typesetting support
     # https://katex.org/
-    katex: false
+    katex: true
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-    mathjax: false
+    mathjax: true
     # Enable the Outdated Browser plugin
     # http://outdatedbrowser.com/
     outdated_browser: false

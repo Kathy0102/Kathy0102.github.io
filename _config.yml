@@ -1,11 +1,11 @@
-title: Hexo
+title: Kathy's Home
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
+author: Katherine Ye
 language: en
-timezone: ''
-url: http://example.com
+timezone: 'Asia/Shanghai'
+url: https://kathy0102.github.io/
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -28,13 +28,17 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
+images:
+    lazyload: false
+    prepend_root: true
+    post_asset: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
   hljs: false
